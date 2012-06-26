@@ -1,0 +1,12 @@
+{
+  "name": "Toggle Pull Requests on GitHub Issues page",
+  "version": "0.0.1",
+  "background": { "scripts": ["background.js"] },
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "browser_action": {
+    "default_icon": "on.png"
+  },
+  "manifest_version": 2
+}
